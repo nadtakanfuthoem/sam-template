@@ -1,27 +1,11 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  sam-secret-manager
+  replace this
 
 Transform:
 - AWS::Serverless-2016-10-31
 
-Resources:
-  exampleSecretKey:
-    Type: AWS::SecretsManager::Secret
-    Properties: 
-      Description: this is an example secret key
-      Name: exampleSecretKey
-      SecretString: "abcdefg"
-      # ReplicaRegions:
-      #   - Region: us-west-1
-      Tags: 
-        - Key: name
-          Value: demo
+Resources: # replace this
 
-Outputs:
-  exampleSecretKeyExport:
-    Description: export secret key arn
-    Value: !Ref exampleSecretKey
-    Export:
-      Name: exampleSecretKeyArn
+Outputs: # replace this
 
