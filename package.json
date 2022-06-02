@@ -1,0 +1,11 @@
+{
+    "name": "sam-template",
+    "description": "sam-template",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "deploy": "sh deploy.sh"
+    }
+}
